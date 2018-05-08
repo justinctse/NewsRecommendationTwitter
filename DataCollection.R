@@ -47,7 +47,7 @@ dt$processedText <- processTweet(dt$text, "#[h,H]ealth")
 write.csv(dt, "health1.csv", row.names = F)
 
 #Sample code to pull tweets from a timeline
-tlDT <- userTimeline("sadboy_justin", n = 15)
+tlDT <- userTimeline("mkbhd", n = 15)
 tlDT <- twListToDF(tlDT)
 tlDT$text
 processTweet(tlDT$text)

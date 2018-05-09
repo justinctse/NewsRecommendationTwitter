@@ -1,5 +1,4 @@
-#RSHINY Test
-#install.packages("shiny")
+#Justin Tse
 rm(list=ls())
 library(tm)
 library(qdap)

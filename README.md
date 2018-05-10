@@ -1,6 +1,9 @@
 # NewsRecommendationTwitter
 Github for Justin Tse and Cindy Xu's final project.
 
+I have created an online app to run the entire news recommendation system. The app can be accessed at this link
+https://justintse.shinyapps.io/newsrectwitter/
+
 NOTE: SINCE GITHUB IS PUBLIC I HAVE BLOCKED OUT MY TWITTER AND NYT API KEYS. IF THEY ARE NEEDED TO GRADE THE PROJECT, MESSAGE Justin Tse. 
 
 Files: 

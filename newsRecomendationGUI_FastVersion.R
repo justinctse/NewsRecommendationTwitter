@@ -10,13 +10,13 @@ library(twitteR)
 words <- c(stopwords("en"),"rt")
 labels <- c("politics", "business", "tech", "science", "sports", "style", "health")
 #Set up Twitter Connection
-consumer_key <- "aWN6m8w6EuPlAblQ3e9PYMZjn"
-consumer_secret <- "7ac3dL0reDqIlRvfHF4Z9WolDz3MIupPXiTdLvtV2P7PB6dJOT"
-access_token <- "978782739892711430-Zubs11aTOeOPDLyN3lEev01F5dnclHe"
-access_secret <- "H4lgkewLsvYK49HS6KZCJlE9Pl6XCo52YcVrVtsm3fj1n"
+consumer_key <- ""
+consumer_secret <- ""
+access_token <- ""
+access_secret <- ""
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 #Set up NYT Connection
-NYTIMES_KEY <- "cf47130e83d242dc94f82f4d8387635b"
+NYTIMES_KEY <- ""
 
 #Function to train the bag of words model. 
 trainBOW <- function(train, nTerms){

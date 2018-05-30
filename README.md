@@ -25,3 +25,5 @@ newsReccomender.R - Code to use a model and recommend news articles to a specifi
 Visualization.R - Code to produce visualizations. 
 
 alternateModels.py - Code containing three other models: MultinomialNB, Logistic Regression, SVM
+
+![alt text](https://gfycat.com/YearlyUnacceptableFennecfox)

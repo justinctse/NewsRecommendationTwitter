@@ -26,7 +26,7 @@ Files:
 
 * SVM_model_5_24_2018.sav - *The SVM model to classify the topic of a Tweet.*
 
-* count_vec_5_24_2018.sav - *The word vectorizer object for classifying Tweets. This is necessary to input a Tweet into a model. 
+* count_vec_5_24_2018.sav - *The word vectorizer object for classifying Tweets. This is necessary to input a Tweet into a model.* 
 
 * News_Recommender_Dash_GUI.py - *The Python version of the News Recommendation GUI. It loads a pre saved SVM model. It also generates a graph of user interests in addition to recommending news articles.*
 

@@ -26,4 +26,4 @@ Visualization.R - Code to produce visualizations.
 
 alternateModels.py - Code containing three other models: MultinomialNB, Logistic Regression, SVM
 
-![alt text](https://gfycat.com/YearlyUnacceptableFennecfox)
+![GUI for the recommendation system](https://i.imgur.com/YHoRPLO.png)

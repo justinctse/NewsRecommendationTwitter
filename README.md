@@ -6,29 +6,16 @@ https://justintse.shinyapps.io/newsrectwitter/. This is the app created with RSh
 
 **Note:** Since github is public, I have blocked out my Twitter, News API, and New York Times API keys. To run the files, input your own API keys in the variables in the setup portions of each file. 
 
-Files: 
+Folders: 
+* Apps - *Contains everything needed to run both GUIs.*
 
-* DataCollection.R - *Code to pull raw twitter data using Twitter API.*
+* Data_Preparation - *Contains scripts to download and process raw Twitter data.*
 
-* DataCompilation.R - *Code to compile/process the data from different topics into a single file.* 
+* Models - *Contains files to train classification models.*
 
-* newsRecommender.R - *Code to use a model and recommend news articles to a specific user.*
+* Visualizations - *Contains visualizations of the data.*
 
-* bagOfWords.R - *Code for the Bag of Words Model, Also contains code to get training and test error.*
 
-* newsReccomendationGUI_FastVersion.R - *The RShiny version of the News Recommendation GUI. It loads a pre saved bag of words model so there is no training necessary.* 
-
-* bowModel_Apr9_2018.RData - *Saved version of the bag of words model from data gathered in April.* 
-
-* Visualization.R - *Code to produce visualizations.* 
-
-* alternate_models.py - *Code containing three other models: MultinomialNB, Logistic Regression, SVM*
-
-* SVM_model_5_24_2018.sav - *The SVM model to classify the topic of a Tweet.*
-
-* count_vec_5_24_2018.sav - *The word vectorizer object for classifying Tweets. This is necessary to input a Tweet into a model.* 
-
-* News_Recommender_Dash_GUI.py - *The Python version of the News Recommendation GUI. It loads a pre saved SVM model. It also generates a graph of user interests in addition to recommending news articles.*
 
 ![GUI for the recommendation system](https://i.imgur.com/YHoRPLO.png)
 *The Python version of the News Recommendation System*

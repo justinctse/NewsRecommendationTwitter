@@ -1,3 +1,5 @@
+#Apps
+
 ### Files: 
 
 * News_Recommender_Dash_GUI.py - *The Python version of the News Recommendation GUI. It loads a pre saved SVM model. It also generates a graph of user interests in addition to recommending news articles.*

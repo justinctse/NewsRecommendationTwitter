@@ -32,10 +32,10 @@ plt.style.use("seaborn-whitegrid")
 sns.set_style("whitegrid")
 #Setup twitter connection
 # Consumer keys and access tokens, used for OAuth
-consumer_key = 'aWN6m8w6EuPlAblQ3e9PYMZjn'
-consumer_secret = '7ac3dL0reDqIlRvfHF4Z9WolDz3MIupPXiTdLvtV2P7PB6dJOT'
-access_token = '978782739892711430-Zubs11aTOeOPDLyN3lEev01F5dnclHe'
-access_token_secret = 'H4lgkewLsvYK49HS6KZCJlE9Pl6XCo52YcVrVtsm3fj1n'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 # OAuth process, using the keys and tokens
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -45,8 +45,8 @@ auth.set_access_token(access_token, access_token_secret)
 twitter_api = tweepy.API(auth)
 
 #Set up News API connections
-NYT_API_key= "cf47130e83d242dc94f82f4d8387635b"
-NEWSAPI_key = "ba98f232f1954f67ae9d6bede3b5e9e1"
+NYT_API_key= ""
+NEWSAPI_key = ""
 # load the model from disk
 SVM_model = pickle.load(open("SVM_model_5_24_2018.sav", 'rb'))
 count_vec = pickle.load(open("count_vec_5_24_2018.sav", 'rb'))

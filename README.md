@@ -6,6 +6,8 @@ https://justintse.shinyapps.io/newsrectwitter/. This is the app created with RSh
 
 **Note:** Since github is public, I have blocked out my Twitter, News API, and New York Times API keys. To run the files, input your own API keys in the variables in the setup portions of each file. 
 
+___
+
 Folders: 
 * Apps - *Contains everything needed to run both GUIs.*
 
